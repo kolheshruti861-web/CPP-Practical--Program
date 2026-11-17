@@ -2,7 +2,7 @@
 //
 // CSV format used (one student per line, no header):
 //     id,name,marks
-//     101,Shreya Mhatre,88.5
+//     101,Shruti kolhe,88.5
 // Names must not contain commas.
 //
 // PART A: write, read and validate a CSV file.
@@ -86,7 +86,7 @@ int main() {
     // ============================================================
     cout << "=== PART A: CSV write and read ===\n";
     vector<Student> students = {
-        {101, "Shreya Mhatre", 88.5},
+        {101, "Shruti kolhe", 88.5},
         {102, "Rahul Patil", 72},
         {103, "Anita Sharma", 91.25}
     };
